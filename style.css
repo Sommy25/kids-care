@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/peakpx.jpg);
+    color: darkred;
+}
+.top{
+    background-color: rgb(0, 119, 255);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+span{
+    color: blue;
+}
+.menu {
+    display: flex;
+    margin-left:5rem;
+    margin-top: 4rem;
+    gap: 6rem;
+    color: white;
+}
+.menu a1, a2, a3, a4, a5, a6{
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+.menu a1{
+    background-color: rgb(0, 119, 255);
+}
+.menu a2{
+    background-color: green;
+}
+.menu a3{
+    background-color: yellow;
+}
+.menu a4{
+    background-color: crimson;
+}
+.menu a5{
+    background-color: chocolate;
+}
+.menu a6{
+    background-color: darkorchid;
+}
+.body{
+    display: flex;
+    justify-content: right;
+}
+.slide{
+    display: block;
+}
+.svg svg{
+    display: block;
+}
+span1{
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+span2{
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+span3{
+    color: yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+span4{
+    color: crimson;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+span5{
+    color: chocolate;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+span6{
+    color: darkorchid;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+H1{
+    font-weight: 900;
+    font-size: 48px;
+}
+h4{
+    font-size: 20px;
+}
+.header{
+    display: block;
+    margin-top: 2rem;
+    margin-left: 32rem;
+    align-items: center;
+}
+#line{
+    border-bottom: 1px solid blue;
+    width: 78rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+.img{
+    margin-left: 4.8rem;
+}
+button{
+    color: white;
+    background-color: blue;
+    border-radius: 2rem;
+    padding: 10px;
+    margin-left: 15rem;
+    margin-top: 2rem;
+}
+.text{
+    color: blue;
+    margin-left: 20rem;
+    font-size: 25px; 
+    margin-top: 3rem;
+}
+.text h3{
+    margin-left: 4rem;
+}
+.kids{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 18px;
+    font-style: italic;
+    color: white;
+    justify-content: space-between;
+}
+.box1{
+    background-color: blue;
+    padding: 2rem 3rem;
+    border: 2rem;
+}
+.box2{
+    background-color: green;
+    padding: 2rem 2rem;
+}
+.box3{
+    background-color: darkorchid;
+    padding: 2rem 2rem;
+}
