@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(img/peakpx.jpg);
+    /* background-image: url(img/peakpx.jpg); */
+    background-color: pink;
     color: darkred;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .top{
     background-color: rgb(0, 119, 255);
@@ -120,25 +124,46 @@ button{
 .text h3{
     margin-left: 4rem;
 }
-.kids{
+.kids .boxes{
     display: flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
     font-size: 18px;
     font-style: italic;
     color: white;
-    justify-content: space-between;
+    gap: 3rem;
+}
+.value h4{
+    display: flex;
+    align-items: center;
+    margin-left: 38rem;
+}
+.values{
+    display: flex;
+    justify-content: space-around;
+}
+.kids h4{
+    color:chocolate;
+    font-size: 25px;
+    margin-left: 20rem;
 }
 .box1{
     background-color: blue;
-    padding: 2rem 3rem;
-    border: 2rem;
+    padding: 1rem 0.5rem;
+    border-radius: 0.5rem;
 }
 .box2{
     background-color: green;
-    padding: 2rem 2rem;
+    padding: 1rem 0.5rem;
+    border-radius: 0.5rem;
 }
 .box3{
     background-color: darkorchid;
-    padding: 2rem 2rem;
+    padding: 1rem 0.5rem;
+    border-radius: 0.5rem;
+}
+.box4{
+    background-color: chocolate;
+    padding: 1rem 0.5rem;
+    border-radius: 0.5rem;
 }
